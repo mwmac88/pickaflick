@@ -1,0 +1,68 @@
+module.exports = {
+  theme: {
+    fontFamily: {
+      body: ['Raleway', 'sans-serif'],
+      title: ['Bangers', 'cursive'],
+    },
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
+    },
+    height: {
+      8: '2rem',
+      16: '4rem',
+      24: '6rem',
+      32: '8rem',
+      auto: 'auto',
+      screen: '100vh',
+      full: '100%',
+      'header-cover': '600px',
+    },
+    minHeight: {
+      '0': '0',
+      '8': '2rem',
+      '12': '3rem',
+      '16': '4rem',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      full: '100%',
+    },
+    inset: {
+      '-2': '-0.5rem',
+      '0': '0',
+      '2': '0.5rem',
+      '8': '2rem',
+      '1/2': '50%',
+    },
+    opacity: {
+      50: '.5',
+      60: '.6',
+      70: '.7',
+      80: '.8',
+      90: '.9',
+    },
+    extend: {
+      colors: {
+        opaque70: 'rgba(0, 0, 0, 0.7)',
+      },
+    },
+    screens: {
+      xs: { max: '419px' },
+      sm: { min: '420px' },
+      md: { min: '600px' },
+      lg: { min: '992px' },
+      xl: '1200px',
+    },
+  },
+  variants: {},
+  plugins: [],
+};
